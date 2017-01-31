@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>NIU - CSCI 490 / CS680 Graphical Data Page</title>
+  <link rel="stylesheet" href="style680.css" type="text/css" />
+</head>
+<body>
+<center><h1>CSCI 490 / 680 &mdash; Graphical Data &mdash; Fall
+2016</h1></center>
+    
+Some data files that you can use to generate images or model
+images of your own.
+
+<h2>Scenes</h2>
+
+<ul>
+  <li><b>RD scene files</b> for a renderer outfitted with the
+  <samp>rd_parse</samp> routines.
+  <ul>
+
+    <li><a href="data/s01.rd">s01.rd</a> A single point [<a
+    href="images/data/s01.png">Image</a>]</li>
+    
+    <li><a href="data/s02.rd">s02.rd</a> Change of background
+    color [<a href="images/data/s02.png">Image</a>]</li>
+    
+    <li><a href="data/s03.rd">s03.rd</a> Line test (unclipped)
+    [<a href="images/data/s03.png">Image</a>]</li>
+    
+    <li><a href="data/s04.rd">s04.rd</a> Colored lines
+    (unclipped) in a small window [<a
+    href="images/data/s04.png">Image</a>]</li>
+    
+    <li><a href="data/s05.rd">s05.rd</a> Circles [<a
+    href="images/data/s05.png">Image</a>]</li>
+    
+    <li><a href="data/s06.rd">s06.rd</a> Flood filled squares
+    [<a href="images/data/s06.png">Image</a>]</li>
+    
+    <li><a href="data/s07.rd">s07.rd</a> &quot;Oh No!&quot;</li>
+    
+    <li><a href="data/s08.rd">s08.rd</a> Test of flood fill
+    boundaries [<a href="images/data/s08.png">Image</a>]</li>
+
+    <li> The following three data files test out various stages of the
+    transformation pipeline as it's being implemented. The image
+    should remain the same for all three files at different
+    development times.  Only s11.rd should work properly in your final
+    renderer. <br />
+    
+    <a href="data/s09.rd">s09.rd</a> Test of device
+    coordinates only in line pipeline.
+    [<a href="images/data/s09.png">Image</a>]</li>
+    
+    <li><a href="data/s10.rd">s10.rd</a> Test of clip to device
+    coordinate line transformation pipeline.</li>
+    
+    <li><a href="data/s11.rd">s11.rd</a> Test of default camera
+    parameters and world to clip coordinates in line
+    transformation pipeline.</li>
+    
+    <li><a href="data/s12.rd">s12.rd</a> A test of object
+    translation. [<a href="images/data/s12.png">Image</a>]</li>
+    
+    <li><a href="data/s13.rd">s13.rd</a> A test of object
+    scaling. [<a href="images/data/s13.png">Image</a>]</li>
+    
+    <li><a href="data/s14.rd">s14.rd</a> A camera position test.
+    [<a href="images/data/s14.png">Image</a>]</li>
+    
+    <li><a href="data/s15.rd">s15.rd</a> A cube.
+    [<a href="images/data/s15.png">Image</a>]</li>
+    
+    <li><a href="data/s16.rd">s16.rd</a> Two cubes.
+    [<a href="images/data/s16.png">Image</a>]</li>
+    
+    <li><a href="data/s17.rd">s17.rd</a> Test of camera position
+    and FOV.
+    [<a href="images/data/s17.png">Image</a>]</li>
+    
+    <li><a href="data/s18.rd">s18.rd</a> Test of transformation
+    stack and sphere.
+    [<a href="images/data/s18.png">Image</a>]</li>
+    
+    <li><a href="data/s19.rd">s19.rd</a> A test of anisotropic
+    scaling and rotation.
+    [<a href="images/data/s19.png">Image</a>]</li>
+    
+    <li><a href="data/s20.rd">s20.rd</a> A simple PolySet.
+    [<a href="images/data/s20.png">Image</a>]</li>
+    
+    <li><a href="data/s21.rd">s21.rd</a> Cone test.
+    [<a href="images/data/s21.png">Image</a>]</li>
+    
+    <li><a href="data/s22.rd">s22.rd</a> Cylinder test.
+    [<a href="images/data/s22.png">Image</a>]</li>
+    
+    <li><a href="data/s23.rd">s23.rd</a> Sphere test.
+    [<a href="images/data/s23.png">Image</a>]</li>
+
+    <li><a href="data/s24.rd">s24.rd</a> Point clipping test.
+    There should be a red point in the center of the screen, not
+    a yellow point.</li>
+    
+    <li><a href="data/s25.rd">s25.rd</a> A scene
+    [<a href="images/data/s25.png">Image</a>]</li>
+    
+    <li><a href="data/s26.rd">s26.rd</a> A scene with a point set
+    [<a href="images/data/s26.png">Last Image</a>]</li>
+
+    <li><a href="data/s27.rd">s27.rd</a> Vertical clipping test
+    to a PPM file.
+    [<a href="images/data/s27.png">Image</a>]</li>
+    
+    <li><a href="data/s28.rd">s28.rd</a> A test of the rear
+    clipping plane.  Your sphere may appear different.
+    [<a href="images/data/s28.png">Image</a>]</li>
+    
+    <li><a href="data/s29.rd">s29.rd</a> A test of the front
+    clipping plane.  This is actually a view inside a hole in
+    the front of the sphere.  Your sphere may appear different.
+    [<a href="images/data/s29.png">Image</a>]</li>
+    
+    <li><a href="data/s30.rd">s30.rd</a> A test of depth
+    buffering.  Examine the intersection points carefully.
+    [<a href="images/data/s30.png">Image</a>]
+    [<a href="images/data/s30a.png">[Solid Image</a>]</li>
+    
+    <li><a href="data/s31.rd">s31.rd</a> A better test of depth
+    buffering. 
+    [<a href="images/data/s31.png">Image</a>]</li>
+    
+    <li><a href="data/s32.rd">s32.rd</a> A scene with some clipping.
+    [<a href="images/data/s32.png">Image</a>]</li>
+    
+    <li><a href="data/s33.rd">s33.rd</a> A well known scene
+    [<a href="images/data/s33.png">Image</a>]</li>
+    
+    <li><a href="data/s34.rd">s34.rd</a> An example of particle
+    systems using clipping and depth buffering (Warning: this is a
+    large file)
+    [<a href="images/data/s34.png">Last frame</a>]</li>
+    
+    <li><a href="data/s35.rd">s35.rd</a> A test of sphere radius
+    parameter and xy clipping.
+    [<a href="images/data/s35.png">Image</a>]</li>
+    
+    <li><a href="data/s36.rd">s36.rd</a> A test of cone height
+    and radius parameters.
+    [<a href="images/data/s36.png">Image</a>]</li>
+    
+    <li><a href="data/s37.rd">s37.rd</a> A test of cylinder
+    radius, zmin, and zmax parameters.  Also some clipping.
+    [<a href="images/data/s37.png">Image</a>]</li>
+
+    <li><a href="data/s38.rd">s38.rd</a> A scan converted cube
+    with default surface properties and shaders.
+    [<a href="images/data/s38.png">Image</a>]</li>
+    
+    <li><a href="data/s39.rd">s39.rd</a> A scan converted cube
+    with polygon clipping.
+    [<a href="images/data/s39.png">Image</a>]</li> 
+    
+    <li><a href="data/s40.rd">s40.rd</a> Another scan converted
+    cube with more clipping.
+    [<a href="images/data/s40.png">Image</a>]</li>
+
+
+    <li><a href="data/s41.rd">s41.rd</a> Two simple spheres,
+    white surface, 1 far light, matte shading.
+    [<a href="images/data/s41.png">Image</a>]</li>
+    
+    <li><a href="data/s42.rd">s42.rd</a> Two simple spheres,
+    white surface, 3 colored far lights, matte shading.  Left
+    sphere has interpolation on (the default), the right has
+    interpolation off.
+    [<a href="images/data/s42.png">Image</a>]</li>
+    
+    <li><a href="data/s43.rd">s43.rd</a> Two simple spheres,
+    white surfaces, 3 dim colored far lights, 1 bright point
+    light between the spheres.  Left sphere has interpolation
+    on; right, off. 
+    [<a href="images/data/s43.png">Image</a>]</li>
+    
+    <li><a href="data/s44.rd">s44.rd</a> Two simple spheres,
+    gold color, metal shader, 3 dim colored far lights, 1
+    bright far light.
+    [<a href="images/data/s44.png">Image</a>]</li>
+    
+    <li><a href="data/s45.rd">s45.rd</a> Testing the plastic
+    shader on some white spheres.  Specular coefficient
+    increases from 1 on the bottom to 100 on the top.  On the
+    left, k<sub>d</sub> = 1.0 and k<sub>a</sub> = 0.0.  These
+    parameters gradually switch until on the right
+    k<sub>d</sub> = 0.0 and k<sub>s</sub> = 1.0.
+    [<a href="images/data/s45.png">Image</a>]</li>
+    
+    <li><a href="data/s46.rd">s46.rd</a>A shaded version of a
+    familiar scene. 
+    [<a href="images/data/s46.png">Image</a>]<br />
+    Some scene hacks: A colored point light matching the color
+    of each object is placed beneath each object.  A bright
+    white point light is placed at the center of the scene,
+    but because lights are not directly viewable, a white
+    matte sphere of maximum intensity is placed at the scene
+    center, giving the illusion that the light comes from the
+    sphere. Note that there are no shadows. </li>
+    
+    <li><a href="data/s47.rd">s47.rd</a> Another well known scene.
+    [<a href="images/data/s47.png">Image</a>]<br />
+    Note that not all of the polygons in these objects are
+    traced counter-clockwise as seen from the
+    outside. Consequently, the surface normals are oriented
+    incorrectly, and the polygons look dim.</li>
+    
+    <li><a href="data/s48.rd">s48.rd</a> A simple scene. 
+    [<a href="images/data/s48.png">Image</a>]<br />
+    Compare this with a [<a href="images/data/s48r.png">ray
+    traced image</a>] of the same scene.  Note the shadows,
+    which are very easy to do in a ray tracer.</li>
+    
+    <li><a href="data/s49.rd">s49.rd</a> Another scene. 
+    [<a href="images/data/s49.png">Image</a>]<br />
+    and its [<a href="images/data/s49r.png">ray
+    traced image</a>] counterpart.  The difference between
+    spherical approximations and true spheres is evident here. </li>
+    
+    <li><a href="data/s50.rd">s50.rd</a> Yet another scene. 
+    [<a href="images/data/s50.png">Image</a>]<br />
+    and its [<a href="images/data/s50r.png">ray
+    traced image</a>] counterpart.  Ray tracing picks up some
+    lighting interactions that are more difficult to do in a
+    scan converter. </li>
+
+<!--
+    {li}The following images require the use of some texture
+    files below.  These texture files must be placed in the same
+    directory as the scene files for proper functioning.{/li}
+    
+    {li}{a href="data/s51.rd"}s51.rd{/a} An example of texture mapping. 
+    [{a href="images/data/s51.png"}Image{/a}]{br /}
+    The left hand sphere is sampled by nearest neighbor.  The
+    right hand sphere uses bilinear texture mapping.{/li}
+    
+    {li}{a href="data/s52.rd"}s52.rd{/a} A texture mapping animation
+    [{a href="images/data/s52.png"}Last Frame{/a}]{br /}{/li}
+    
+    {li}{a href="data/s53.rd"}s53.rd{/a} A demonstration of
+    texture levels.
+    [{a href="images/data/s53.png"}Image{/a}]{br /}
+    This image is formed by hardwiring the sampling engine to
+    always use the highest mipmap level available.{/li}
+    
+    {li}{a href="data/s54.rd"}s54.rd{/a} More texture mapping.
+    [{a href="images/data/s54.png"}Image{/a}]{br /}
+    Note the soft shadows underneath each playing piece, which
+    greatly enhances the realism.  This is a hack and is done by
+    placing a light in the center of each sphere with a
+    {em}negative{/em} intensity.  This is an example of
+    {em}darklights{/em}.  Depending on where you've
+    placed certain tests in your shaders, you may or may not get
+    this effect in your renderer.  If not, don't worry about it.
+    {/li}
+
+
+    -->
+    
+  </ul></li>
+</ul>
+
+<h2>TextureMaps</h2>
+The texture maps below are low resolution versions of some wonderful
+images that can be found on the Web.  Sources are listed where known.
+<ul>
+  <li> NASA's Blue Marble data sets:
+  (http://earthobservatory.nasa.gov/Newsroom/BlueMarble) 
+  <ul>
+    <li><a href="images/texture/earth1.ppm">earth1.ppm</a></li>
+    <li><a href="images/texture/earth2.ppm">earth2.ppm</a></li>
+    <li><a href="images/texture/earth3.ppm">earth3.ppm</a></li>
+  </ul></li>
+  <li> Clementine moon mission:
+  (http://astrogeology.usgs.gov/Projects/Clementine/index.html)
+  <ul>
+    <li><a href="images/texture/moon.pgm">moon.pgm</a></li>
+  </ul></li>
+  <li> James Hastings-Trew:
+  (http://gw.marketingden.com/planets/planets.html)
+  <ul>
+    <li><a href="images/texture/mars.ppm">mars.ppm</a></li>
+    <li><a href="images/texture/jupiter.ppm">jupiter.ppm</a></li>
+  </ul></li>
+  <li> Bjorn Jonsson: (http://ww.mmedia.is/~bjj) - some excellent
+  planetary texture maps that can be freely used but not
+  redistributed here.</li>
+</ul>
+
+<h2>Models</h2>
+
+<ul>
+  <li><b>Platonic solids</b> - Some data sets for each of the five
+  platonic solids:
+  <ul>
+    <li><a href="data/cube.rd">Cube</a></li>
+    <li><a href="data/octa.rd">Octahedron</a></li>
+    <li><a href="data/tetra.rd">Tetrahedron</a></li>
+    <li><a href="data/icosa.rd">Icosahedron</a></li>
+    <li><a href="data/dodeca.rd">Dodecahedron</a></li>
+  </ul>
+  <em>Note:</em>The data sets may contain errors.  
+  Please report any errors you find to the instructor.
+  </li>
+  
+  <li><b>Other objects</b>
+  <ul>
+    <li><a href="data/table1.dat">A coffee table</a></li>
+    <li>A 3D representation of the local <a href="data/star.rd">
+    stellar neighborhood</a>.  (Caution: 6MB file) This data set was
+    computed from the European Space Administration's Hipparcos data
+    set and contains over 118,000 stars.  Intensities and colors are
+    currently a hack and &quot;accurate&quot; only as seen from
+    Earth.</li>
+    <li> An expanded representation of the <a
+    href="data/world.dat">Earth</a> landforms.</li>
+    
+  </ul></li>
+</ul>
+<hr width="100%" />
+
+<!-- hhmts start -->Last modified: Tue Nov 29 13:57:22 CST 2016 <!-- hhmts end -->
+  </body>
+</html>
+
